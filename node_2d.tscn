@@ -2,6 +2,21 @@
 
 [ext_resource type="Texture2D" uid="uid://chddi4fwfs48w" path="res://bapak bapak x5 (1).png" id="1_dwttx"]
 
+[sub_resource type="Animation" id="Animation_l2y6o"]
+length = 1.005
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(201, 192), Vector2(970, 188)]
+}
+
 [sub_resource type="Animation" id="Animation_rqa2l"]
 resource_name = "new_animation"
 tracks/0/type = "value"
@@ -15,21 +30,6 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Vector2(201, 192), Vector2(871, 197)]
-}
-
-[sub_resource type="Animation" id="Animation_l2y6o"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(201, 192)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_gkq8h"]
